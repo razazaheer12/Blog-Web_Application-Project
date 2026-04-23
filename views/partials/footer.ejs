@@ -1,0 +1,22 @@
+  <!-- Smooth Page Fade-In -->
+  <script>
+    window.addEventListener("load", () => {
+      document.body.style.transition = "opacity 0.4s ease";
+      document.body.style.opacity = 1;
+    });
+  </script>
+
+  <!-- Optional: Smooth Scroll (future use) -->
+  <script>
+    document.querySelectorAll("a[href^='#']").forEach(anchor => {
+      anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href"))?.scrollIntoView({
+          behavior: "smooth"
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
