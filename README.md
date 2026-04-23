@@ -13,6 +13,7 @@
   <br />
   Create, read, update, and delete your thoughts with a beautiful, responsive UI.
 </p>
+<img width="946" height="413" alt="image" src="https://github.com/user-attachments/assets/c1a04c9f-2c01-48a3-9610-341267124cb4" />
 
 ---
 
