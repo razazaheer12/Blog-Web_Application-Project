@@ -1,0 +1,28 @@
+<%- include("partials/header") %>
+
+<div class="container">
+  <h1>My Thoughts</h1>
+
+  <a href="/create" class="btn">+ New Post</a>
+
+  <% if (posts.length === 0) { %>
+    <p class="empty">No posts yet. Start writing ✍️</p>
+  <% } %>
+
+  <% posts.forEach(post => { %>
+    <div class="post">
+      <h2><%= post.title %></h2>
+      <p><%= post.content.substring(0, 150) %>...</p>
+
+      <div class="actions">
+        <a href="/edit/<%= post.id %>" class="btn">Edit</a>
+
+        <form action="/delete/<%= post.id %>" method="POST" onsubmit="return confirm('Delete this post?')" style="display:inline;">
+          <button class="btn">Delete</button>
+        </form>
+      </div>
+    </div>
+  <% }) %>
+</div>
+
+<%- include("partials/footer") %>
