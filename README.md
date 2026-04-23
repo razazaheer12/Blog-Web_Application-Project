@@ -124,10 +124,14 @@ Blog-Web_Application-Project/
 ## 📸 Screenshots
 
 > _Add your own screenshots here to showcase the UI!_
->
+><img width="947" height="410" alt="image" src="https://github.com/user-attachments/assets/43b92f27-9ca4-47f2-9d27-06e128f9506c" />
+
 > 1. Home page with post listings
+> <img width="949" height="407" alt="image" src="https://github.com/user-attachments/assets/2b35673e-b58b-431f-b0e2-f9fbb37161de" />
 > 2. Create post form
+> <img width="950" height="411" alt="image" src="https://github.com/user-attachments/assets/7acb7bc2-fd05-485d-aaf5-f36a6c223b64" />
 > 3. Edit post form
+<img width="950" height="412" alt="image" src="https://github.com/user-attachments/assets/7cfd79df-239b-40c1-8686-6b9279198c46" />
 
 ---
 
